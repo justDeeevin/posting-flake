@@ -4,7 +4,7 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     textual-autocomplete = {
       # TODO: update to darrenburns once flake PRr gets merged
-      url = "github:justdeeevin/textual-autocomplete/flake";
+      url = "github:justdeeevin/textual-autocomplete-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
